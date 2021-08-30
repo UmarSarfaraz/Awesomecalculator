@@ -115,6 +115,20 @@ body {
         }
 
     }
+
+    @media screen and (max-width:370px){
+        .main{
+            width: 66%;
+            min-height: 400px;
+            
+        }
+        .input{
+            width:100%;
+        }
+
+    }
+
+
     @media screen and (max-width:280px){
         .main{
             width: 86.5%;
@@ -126,3 +140,12 @@ body {
         }
 
     }
+    @media screen and (max-width:250px){
+        .main{
+            width: 160%;
+            min-height: 415px;
+            
+        }
+        .input{
+            width:100%;
+        }
